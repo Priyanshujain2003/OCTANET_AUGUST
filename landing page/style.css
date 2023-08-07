@@ -1,0 +1,199 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: sans-serif;
+}
+
+
+.nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+span
+{
+    color: rgb(231, 74, 17);
+}
+
+.list ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list li {
+    list-style: none;
+    margin: 5px;
+}
+
+.list li a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: all 1s;
+}
+
+.list li a:hover
+{
+    color: rgb(231, 74, 17);
+}
+
+.list li a.active
+{
+    color: rgb(231, 74, 17);
+}
+
+button
+{
+    padding: 8px;
+    border-radius: 18px;
+    background-color: transparent;
+    background-color: rgb(231, 74, 17);
+    color: white;
+    border: none;
+    font-weight: bolder;
+    transition: all 1s;
+}
+
+button:hover
+{
+    background-color: transparent;
+    border: 3px solid rgb(231, 74, 17);
+    color: black;
+}
+
+
+img
+{
+    width: 100%;
+}
+
+
+
+
+.slider
+{
+    padding: 30px;
+}
+
+.slider .slider-1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider .slider-1 li {
+    list-style: none;
+    margin: 5px;
+}
+
+.slider .slider-1 li a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: all 1s;
+}
+
+.slider .slider-1 li a:hover
+{
+    color: rgb(231, 74, 17);
+}
+
+.slider .slider-1 li a.active
+{
+    color: rgb(231, 74, 17);
+}
+
+
+
+
+
+
+
+
+.posts
+{
+    display: flex;
+    padding: 10px;
+}
+
+.post-1
+{
+    padding: 20px;
+}
+
+.cart
+{
+    border-radius: 0;
+}
+
+h3
+{
+    padding-top: 5px;
+}
+
+h4
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+/*  */
+.footer
+{
+    background-color: rgb(38, 38, 38);
+    display: flex;
+    justify-content: space-around;
+}
+
+.link li
+{
+    list-style: none;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+
+.link li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+.foot-1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.foot-3 
+{
+    padding-top: 40px;
+}
+
+.foot-3 h5
+{
+    color: white;
+    padding: 5px;
+}
